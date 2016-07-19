@@ -7,8 +7,9 @@ HEADER
   max-width: 110px;
 }
 
-.navbar{
+.navbar {
   background: #ffffff;
+  padding-left: 5vw;
 }
 
 .nav>li>a:hover,
@@ -20,8 +21,8 @@ HEADER
 }
 
 .nav li {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .nav a{
@@ -62,8 +63,8 @@ HEADER
 }
 
 .nav li {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .nav a{
@@ -78,7 +79,24 @@ HEADER
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
-    top:5.7em;
+    top: 4.6em;
+  }
+
+  .dropdown-menu>li>a:hover {
+    background-color: #42c6c6;
+    transition: background-color 0.5s linear;
+  }
+
+  .navbar-nav{
+    margin-top: -50px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .navbar-nav li {
+    display: inline-block;
+    float: none;
   }
 }
 
@@ -93,7 +111,7 @@ HEADER
     margin: 0, auto;
     max-height: 80px;
     max-width: 80px;
-    padding-top: 3px;
+    padding-top: 7.5px;
   }
 
   .caret {
@@ -108,3 +126,7 @@ HEADER
 /******************************************
 BODY
 ******************************************/
+
+body {
+  background: #595959;
+}
