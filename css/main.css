@@ -1,0 +1,110 @@
+/******************************************
+HEADER
+******************************************/
+
+#logoWrapper {
+  max-height: 110px;
+  max-width: 110px;
+}
+
+.navbar{
+  background: #ffffff;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+  background-color: #42c6c6;
+  border-radius: 8px;
+  color: #ffffff;
+  transition: background-color 0.5s linear;
+}
+
+.nav li {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.nav a{
+  font-size: 1.5em;
+}
+
+.nav li ul li {
+  padding:0px;
+}
+
+/****** START MENU FUNCTIONALITY ********/
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #000000;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+  top: 6px;
+  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  top: -6px;
+  transform: rotate(-45deg);
+}
+
+.nav li {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.nav a{
+  font-size: 1.5em;
+}
+
+.nav li ul li {
+  padding: 0px;
+}
+/****** END MENU FUNCTIONALITY **********/
+
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    top:5.7em;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav a {
+    background: #ffffff;
+    font-size: 1em;
+  }
+
+  #logoWrapper {
+    display: block;
+    margin: 0, auto;
+    max-height: 80px;
+    max-width: 80px;
+    padding-top: 3px;
+  }
+
+  .caret {
+    display: none;
+  }
+
+  .nav li {
+    padding: 0px;
+  }
+}
+
+/******************************************
+BODY
+******************************************/
