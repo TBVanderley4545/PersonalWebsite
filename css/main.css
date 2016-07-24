@@ -131,6 +131,35 @@ body {
   background: #595959;
 }
 
-h1 {
-  margin-top: 10vh;
+#columnOne {
+  background-color: white;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 110px;
+  width: 47%;
+}
+
+#columnTwo {
+  background-color: white;
+  display: inline-block;
+  float: right;
+  margin-right: 2%;
+  margin-top:110px;
+  width: 47%;
+}
+#columnThree {
+  background-color: white;
+  margin: 0 2%;
+  width: 96%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #columnOne {
+    margin-top: 80px;
+  }
+
+  #columnTwo {
+    margin-top: 80px;
+  }
 }

@@ -14,4 +14,18 @@
       templateUrl: 'directives/columnOne.html'
     };
   });
+
+  app.directive("columnTwo", function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'directives/columnTwo.html'
+    };
+  });
+
+  app.directive("columnThree", function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'directives/columnThree.html'
+    };
+  });
 })();
