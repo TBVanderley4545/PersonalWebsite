@@ -150,6 +150,7 @@ body {
   margin-top:110px;
   width: 47%;
 }
+
 #columnThree {
   margin: 0 2%;
   width: 96%;
@@ -171,5 +172,6 @@ body {
 
   #columnThree {
     display: block;
+    margin-top: 89px;
   }
 }

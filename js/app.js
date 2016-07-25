@@ -28,5 +28,5 @@
       templateUrl: 'directives/columnThree.html'
     };
   });
-  
+
 })();
