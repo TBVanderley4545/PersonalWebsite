@@ -131,8 +131,12 @@ body {
   background: #595959;
 }
 
-#columnOne {
+.contentPanel {
   background-color: white;
+  border-radius: 8px;
+}
+
+#columnOne {
   display: inline-block;
   margin-left: 2%;
   margin-top: 110px;
@@ -140,15 +144,13 @@ body {
 }
 
 #columnTwo {
-  background-color: white;
   display: inline-block;
-  float: right;
+  float:right;
   margin-right: 2%;
   margin-top:110px;
   width: 47%;
 }
 #columnThree {
-  background-color: white;
   margin: 0 2%;
   width: 96%;
   text-align: center;
@@ -156,10 +158,18 @@ body {
 
 @media (max-width: 767px) {
   #columnOne {
-    margin-top: 80px;
+    display: block;
+    margin: 80px 2% 0 2%;
+    width: 96%
   }
 
   #columnTwo {
-    margin-top: 80px;
+    display: block;
+    margin: 0 2%;
+    width: 96%;
+  }
+
+  #columnThree {
+    display: block;
   }
 }
