@@ -136,6 +136,10 @@ body {
   border-radius: 8px;
 }
 
+#personalPicture {
+  max-width: 100%;
+}
+
 #columnOne {
   display: inline-block;
   margin-left: 2%;
