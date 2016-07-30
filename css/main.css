@@ -79,11 +79,13 @@ HEADER
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
+    text-align: center;
     top: 4.6em;
   }
 
   .dropdown-menu>li>a:hover {
     background-color: #42c6c6;
+    border-radius: 8px;
     transition: background-color 0.5s linear;
   }
 
