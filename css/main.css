@@ -76,6 +76,7 @@ HEADER
 }
 /****** END MENU FUNCTIONALITY **********/
 
+/****** WHEN SIZE IS GREATER THAN OR EQUAL TO 768PX **********/
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
@@ -102,6 +103,7 @@ HEADER
   }
 }
 
+/****** WHEN SIZE DIPS BELOW 768PX **********/
 @media (max-width: 767px) {
   .nav a {
     background: #ffffff;
@@ -138,10 +140,6 @@ body {
   border-radius: 8px;
 }
 
-.personalPicture {
-  max-width: 100%;
-}
-
 #columnOne {
   display: inline-block;
   margin-left: 2%;
@@ -158,18 +156,12 @@ body {
 }
 
 #columnThree {
-  margin: 0 2%;
-  width: 96%;
+  display: block;
+  max-width: 100%;
   text-align: center;
 }
 
-#aboutPage {
-  margin-left:auto;
-  margin-right: 0px;
-  margin-top:110px;
-  width: 40%;
-}
-
+/****** WHEN SIZE DIPS BELOW 768PX **********/
 @media (max-width: 767px) {
   #columnOne {
     display: block;
@@ -183,16 +175,52 @@ body {
     width: 96%;
   }
 
-  #columnThree {
-    display: block;
-    margin-top: 89px;
-  }
-
-  #aboutPage {
-    margin-top:80px;
-  }
 }
 
 /******************************************
 About Page
 ******************************************/
+
+#aboutPage {
+  color: #63C2C6;
+  font-size: 1.5em;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top:110px;
+  width: 94%;
+}
+
+#aboutTitle {
+  display: block;
+  font-weight: bolder;
+  width: 100%
+}
+
+.personalPicture {
+  border-radius: 19px;
+  display: block;
+  float: right;
+  max-width: 50%;
+  margin-left: 1%;
+  margin-right: -3%;
+}
+
+/****** WHEN SIZE DIPS BELOW 768PX **********/
+@media (max-width: 767px) {
+  #aboutPage {
+    margin-top:80px;
+  }
+}
+
+/****** WHEN SIZE DIPS BELOW 481PX **********/
+@media (max-width: 480px) {
+  #aboutTitle {
+    text-align: center;
+  }
+
+  .personalPicture {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
