@@ -170,12 +170,33 @@ body {
   }
 
   #columnTwo {
-    display: block;
     margin: 0 2%;
     width: 96%;
   }
 
 }
+
+/******************************************
+Footer
+******************************************/
+
+footer {
+  background-color: #333;
+  font-size: 0.75em;
+  margin: 4% auto;
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.socialIcon {
+  border-radius: 25%;
+  height: 20px;
+  margin: 0 5px;
+  width: 20px;
+}
+
 
 /******************************************
 About Page

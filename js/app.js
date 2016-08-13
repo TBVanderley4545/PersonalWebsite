@@ -29,4 +29,11 @@
     };
   });
 
+  app.directive("siteFooter", function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'directives/site-footer.html'
+    };
+  });
+
 })();
