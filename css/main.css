@@ -112,7 +112,7 @@ HEADER
 
   #logoWrapper {
     display: block;
-    margin: 0, auto;
+    margin: 0 auto;
     max-height: 80px;
     max-width: 80px;
     padding-top: 7.5px;
@@ -136,8 +136,8 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1000px;
+  margin: 110px auto 0 auto;
+  max-width: 1160px;
 }
 
 .contentPanel {
@@ -148,7 +148,6 @@ body {
 #columnOne {
   display: inline-block;
   margin-left: 2%;
-  margin-top: 110px;
   width: 47%;
 }
 
@@ -156,7 +155,6 @@ body {
   display: inline-block;
   float:right;
   margin-right: 2%;
-  margin-top:110px;
   width: 47%;
 }
 
@@ -168,9 +166,13 @@ body {
 
 /****** WHEN SIZE DIPS BELOW 768PX **********/
 @media (max-width: 767px) {
+  .wrapper {
+    margin: 80px auto 0 auto;
+  }
+
   #columnOne {
     display: block;
-    margin: 80px 2% 0 2%;
+    margin: 0 2%;
     width: 96%
   }
 
@@ -212,7 +214,6 @@ PAGE: ABOUT
   font-size: 1.5em;
   margin-left: 3%;
   margin-right: 3%;
-  margin-top:110px;
   width: 94%;
 }
 
@@ -227,15 +228,9 @@ PAGE: ABOUT
   display: block;
   float: right;
   max-width: 50%;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
-/****** WHEN SIZE DIPS BELOW 768PX **********/
-@media (max-width: 767px) {
-  #aboutPage {
-    margin-top:80px;
-  }
-}
 
 /****** WHEN SIZE DIPS BELOW 481PX **********/
 @media (max-width: 480px) {
