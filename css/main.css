@@ -1,4 +1,12 @@
 /******************************************
+GENERAL
+******************************************/
+
+img {
+  max-width: 100%;
+}
+
+/******************************************
 HEADER
 ******************************************/
 
@@ -138,6 +146,7 @@ body {
 .wrapper {
   margin: 110px auto 0 auto;
   max-width: 1160px;
+  padding: 0 5%;
 }
 
 .contentPanel {
@@ -251,4 +260,37 @@ PAGE: ANDROID
 
 #androidGallery {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#androidGallery li {
+  background-color: #333333;
+  display: inline-block;
+  margin: 2.5%;
+  width: 28%;
+}
+
+#androidGallery li:hover {
+  background-color: #F5F5F5;
+  transition: background-color 0.5s linear;
+}
+
+#androidGallery li a {
+  color: white;
+  text-decoration: none;
+}
+
+#androidGallery li a:hover {
+  color:#333333;
+  transition: color 0.5s linear;
+}
+
+#androidGallery li a p {
+  text-align: center;
+  padding: 5%;
+}
+
+#androidGallery li a img {
+  padding: 1.5%;
 }
