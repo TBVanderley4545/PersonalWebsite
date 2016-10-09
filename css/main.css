@@ -153,6 +153,7 @@ body {
 .contentPanel {
   background-color: white;
   border-radius: 8px;
+  text-align: center;
 }
 
 #columnOne {
@@ -171,7 +172,6 @@ body {
 #columnThree {
   display: block;
   max-width: 100%;
-  text-align: center;
 }
 
 /****** WHEN SIZE DIPS BELOW 768PX **********/
